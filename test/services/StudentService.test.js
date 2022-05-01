@@ -7,4 +7,10 @@ describe('Student Service Tests', () => {
     expect(test[0].name).toBe('student1')
     expect(test[1].name).toBe('student2')
   });
+
+  test("2. Return emails of all certified students", () => {
+    const students = [{haveCertification:true, email:'email1'},{haveCertification:false, email:'email2'},{haveCertification:true, email:'email3'}]
+    const test = StudentService.getEmailOfCertifiedStudents(students)
+    expect(test.length).toBe(2)
+  });
 });
