@@ -13,4 +13,10 @@ describe('Student Service Tests', () => {
     const test = StudentService.getEmailOfCertifiedStudents(students)
     expect(test.length).toBe(2)
   });
+
+  test("3. Return students with credits over 500", () => {
+    const students = [{name:'student1', credits:580},{name:'student2', credits:490},{name:'student3', credits:540}]
+    const test = StudentService.getStudentsOver500(students)
+    expect(test.length).toBe(2)
+  });
 });
