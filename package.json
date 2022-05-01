@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rorrostieta/vp_codechallenge/issues"
   },
-  "homepage": "https://github.com/rorrostieta/vp_codechallenge#readme"
+  "homepage": "https://github.com/rorrostieta/vp_codechallenge#readme",
+  "devDependencies": {
+    "jest": "^26.0.0"
+  }
 }
