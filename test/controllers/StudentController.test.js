@@ -5,4 +5,9 @@ describe('Student Controller Tests', () => {
     const test = StudentController.getAllStudents()
     expect(test[0].name).toBe('Warren')
   });
+
+  test("2. Get email of certified students", () => {
+    const test = StudentController.getEmailOfCertifiedStudents()
+    expect(test[0]).toBe('Todd@visualpartnership.xyz')
+  });
 });
