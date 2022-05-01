@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rorrostieta/vp_codechallenge#readme",
   "devDependencies": {
+    "eslint": "^8.14.0",
     "jest": "^26.0.0"
   }
 }
