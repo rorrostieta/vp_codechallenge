@@ -1,0 +1,19 @@
+{
+  "name": "vp_codechallenge",
+  "version": "1.0.0",
+  "description": "Visual Thinking API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rorrostieta/vp_codechallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rorrostieta/vp_codechallenge/issues"
+  },
+  "homepage": "https://github.com/rorrostieta/vp_codechallenge#readme"
+}
