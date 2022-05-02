@@ -17,8 +17,10 @@ La dependencia de Express la estamos empleando como framework para creacion de u
 ## Diseño de Componentes
 
 Para el diseño de los componentes decidi acomodarlos de la siguiente manera.
+
 ```mermaid
 graph TD;
     Reader-->StudentController;
-
+    StudentService-->StudentController;
+    StudentController-->Server
 ```
