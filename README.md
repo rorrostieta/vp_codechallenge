@@ -1,6 +1,4 @@
-# vp_codechallenge
-Visual Partnership Code Challenge
-
+# Visual Thinking Code Challenge
 ## Dependecias Utilizadas
 
 <br>
@@ -21,3 +19,13 @@ La herramienta que Eslint ofrece funcionalidades para poder "limpiar" el codigo 
 <br>
 3. Express 4.18.1 📨<br>
 La dependencia de Express la estamos empleando como framework para creacion de un servidor que pueda funcionar como API. Su funcion principal va a ser comunicarse con todos los modulos que establecimos en el programa para poder ser el puente con los requests de los usuarios.
+
+## Diseño de Componentes
+
+<br>
+Para el diseño de los componentes decidi acomodarlos de la siguiente manera.
+```mermaid
+graph TD;
+    Reader-->StudentController;
+
+```
