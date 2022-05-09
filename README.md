@@ -56,6 +56,7 @@ Para este apartado voy a mostrar un par de ejemplos de acuerdo a los criterios q
 
 Muchas gracas por tu visita, comentarios y feedback del proyecto.
 Si te interesa mas ver a fondo la secuencia de como fue armado el proyecto visita la pestaña de *projects* de mi repo donde podras ver como lo dividi en tareas.
+Te dejo la liga [aqui](https://github.com/rorrostieta/vp_codechallenge/projects/1). 
 
 Saludos
 rorrostieta 🙃
