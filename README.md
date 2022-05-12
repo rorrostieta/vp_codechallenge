@@ -63,7 +63,7 @@ Voy a mostrar un par de ejemplos de acuerdo a los requerimientos que Visual Thin
 
   `{"students": [Lista de Estudiantes con parametros]}`
 
-![Students](https://github.com/rorrostieta/vp_codechallenge/blob/main/img/emails.png)
+![students](https://github.com/rorrostieta/vp_codechallenge/blob/main/img/students.png)
 
 2. Consultar emails de estudiantes con certificacion
 
@@ -71,11 +71,15 @@ Voy a mostrar un par de ejemplos de acuerdo a los requerimientos que Visual Thin
 
   `{"Certified Students Emails": [Lista de emails]}`
 
+![emails](https://github.com/rorrostieta/vp_codechallenge/blob/main/img/emails.png)
+
 3. Consultar estudiantes con creditos arriba de 500
 
   La solicitud se hace de la siguiente manera `http://localhost:3000/v1/students/credits` para este endpoint el criterio es que contengan mas de 500 creditos en el siguiente atributo `credits:500` y devuelve la lista de la siguiente manera
 
   `{"Students Over 500 Credits": [Lista de nombres]}`
+
+![names](https://github.com/rorrostieta/vp_codechallenge/blob/main/img/names.png)
 
 ## Cierre
 
